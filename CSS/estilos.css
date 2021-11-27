@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap");
+
+body{
+    background-color: #dad7cd;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header{
+    background-color: #87986a;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo img{
+    width: 120px;
+    padding: 7px;   
+}
+
+.headerMenu ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+      
+nav ul li a{
+        color: white;
+        padding-right: 15px;
+        text-decoration: none;
+    }
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    color: black;
+    text-decoration: none;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.centrar{
+    text-align:center
+}
+
+
+.ajustarImagen{
+    width: 60%;
+}
+
+.centrarTexto{
+    text-align:center;
+    margin: 50px 0;
+}
+
+.espacio{
+    margin: 20px 0;
+}
+
+.espacioServicios{
+    margin-top: 50px;
+}
+
+table{
+    display: flex;
+    justify-content:space-around;
+}    
+
+.imagenes{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+
+.conteiner {
+    display: grid; 
+    width: 100%;
+    height: 500vh;
+    justify-items: center;
+    align-items: center;
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90px 20px 650px 20px 650px 20px 650px 20px 650px 250px;
+
+    gap: 5px 5px; 
+    grid-template-areas: 
+        "div1 div1"
+        "div2 div2"
+        "div3 div4"
+        "div5 div5"
+        "div6 div7"
+        "div8 div8"
+        "div9 div10"
+        "div11 div11"
+        "div12 div12"
+        "div13 div13"; 
+    }
+
+.div1 { grid-area: div1;
+        justify-self:center;}
+.div2 { grid-area: div2;
+        justify-self:center; }
+.div3 { grid-area: div3;}
+.div4 { grid-area: div4;}
+.div5 { grid-area: div5;
+        justify-self:center; }
+.div6 { grid-area: div6; }
+.div7 { grid-area: div7; }
+.div8 { grid-area: div8; 
+        justify-self:center;}
+.div9 { grid-area: div9; }
+.div10 { grid-area: div10; }
+.div11 { grid-area: div11; 
+        justify-self:center;}
+.div12 { grid-area: div12; 
+            justify-self:center;}
+.div13 { grid-area: div13; }
+
+.conteiner img {width:100%;}
+
+
+    
+/* MEDIA QUERIES*/
+/* TABLET */
+@media screen and (max-width: 768px) {
+    .imagenes {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .centrar {
+        width:auto;
+        margin-bottom: 50px;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .conteiner {
+        display: grid; 
+        width: 100%;
+        height: 500vh;
+        justify-items: center;
+        align-items: center;
+    
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    
+        gap: 5px 5px; 
+        grid-template-areas: 
+            "div1"
+            "div2"
+            "div3"
+            "div4"
+            "div5"
+            "div6"
+            "div7"
+            "div8"
+            "div9"
+            "div10"
+            "div11"
+            "div12"
+            "div13"; 
+        }
+
+    .div1 { grid-area: div1;
+            justify-self:center;}
+    .div2 { grid-area: div2;
+            justify-self:center; }
+    .div3 { grid-area: div3; }
+    .div4 { grid-area: div4; }
+    .div5 { grid-area: div5;
+            justify-self:center; }
+    .div6 { grid-area: div6; }
+    .div7 { grid-area: div7; }
+    .div8 { grid-area: div8; 
+            justify-self:center;}
+    .div9 { grid-area: div9; }
+    .div10 { grid-area: div10; }
+    .div11 { grid-area: div11; 
+            justify-self:center;}
+    .div12 { grid-area: div12; 
+                justify-self:center;}
+    .div13 { grid-area: div13; }
+
+    .conteiner img {width:100%;}
+}
+
+/* CELULAR */
+@media screen and (max-width: 576px) {
+    .imagenes {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .centrar {
+        width:auto;
+        margin-bottom: 50px;
+    }
+
+    .conteiner {
+        display: grid; 
+        width: 100%;
+        height: 500vh;
+        justify-items: center;
+        align-items: center;
+    
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    
+        gap: 5px 5px; 
+        grid-template-areas: 
+            "div1"
+            "div2"
+            "div3"
+            "div4"
+            "div5"
+            "div6"
+            "div7"
+            "div8"
+            "div9"
+            "div10"
+            "div11"
+            "div12"
+            "div13"; 
+        }
+
+    .div1 { grid-area: div1;
+            justify-self:center;}
+    .div2 { grid-area: div2;
+            justify-self:center; }
+    .div3 { grid-area: div3; }
+    .div4 { grid-area: div4; }
+    .div5 { grid-area: div5;
+            justify-self:center; }
+    .div6 { grid-area: div6; }
+    .div7 { grid-area: div7; }
+    .div8 { grid-area: div8; 
+            justify-self:center;}
+    .div9 { grid-area: div9; }
+    .div10 { grid-area: div10; }
+    .div11 { grid-area: div11; 
+            justify-self:center;}
+    .div12 { grid-area: div12; 
+                justify-self:center;}
+    .div13 { grid-area: div13;}
+
+    .conteiner img {width:100%;}
+}
