@@ -129,6 +129,10 @@ table{
 /* MEDIA QUERIES*/
 /* TABLET */
 @media screen and (max-width: 768px) {
+    .headerMenu ul li{
+        display:contents;
+    }
+    
     .imagenes {
         flex-direction: column;
         align-items: center;
@@ -199,6 +203,10 @@ table{
 
 /* CELULAR */
 @media screen and (max-width: 576px) {
+    .headerMenu ul li{
+        display:contents;
+    }
+    
     .imagenes {
         flex-direction: column;
         align-items: center;
