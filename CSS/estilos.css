@@ -54,6 +54,11 @@ p {
     
 }
 
+.centrarTexto1{
+    text-align:center;
+    margin: 42px 0;
+}
+
 .centrarTexto{
     text-align:center;
     margin: 50px 0;
