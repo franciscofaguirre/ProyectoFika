@@ -163,6 +163,11 @@ table{
         padding-top: 13%;
     }
 
+    .ajustarImagen2{
+        width: 85%;
+        margin: 0 auto;
+    }
+
     .centrar {
         width:auto;
         margin-bottom: 50px;
@@ -251,6 +256,11 @@ table{
 
     .section{
         padding-top: 17%;
+    }
+
+    .ajustarImagen2{
+        width: 85%;
+        margin: 0 auto;
     }
 
     .centrar {
