@@ -5,6 +5,10 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 
+.section{
+    padding-top: 6%;
+}
+
 .header{
     background-color: #87986a;
     position: sticky;
@@ -51,7 +55,11 @@ p {
 .ajustarImagen{
     height:500px;
     width: 55%;
-    
+}
+
+.ajustarImagen2{
+    width: 42%;
+    margin: 0 auto;
 }
 
 .centrarTexto1{
