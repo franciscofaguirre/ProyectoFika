@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 }
 
 .headerLogo img{
@@ -45,6 +46,11 @@ p {
     text-decoration: none;
     line-height: 1.5;
     font-size: 1rem;
+}
+
+.animacion{
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
 }
 
 .centrar{
