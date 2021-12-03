@@ -8,6 +8,11 @@
     <link rel="shortcut icon" href="./imagenes/frameicon.jpg">
     <title> Proyecto Fika </title>
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Animación -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/estilos.css">
@@ -30,10 +35,12 @@
             </ul>
         </nav>
     </header>
+  
+
 
 
     <section class="centrar espacio">
-        <img class="ajustarImagen" src="./imagenes/home.jfif" alt="Home">
+        <img class="card-img-top ajustarImagen2 " src="./imagenes/home.jfif" alt="Home">
 
         <p class="centrarTexto1"> Asesoramos en la creación de espacios y diseñamos muebles a medida y objetos de
             decoración para el hogar.
@@ -50,7 +57,8 @@
             </div>
             <p class="centrar"> Asesoramiento y soluciones integrales de arquitectura e interiorismo. Diseño, dirección
                 y ejecución de proyectos. </p>
-            <ul>
+           
+             <ul>
                 <li> Reforma de ambientes. </li>
                 <li> Refacciones o reciclajes de casas y departamentos. </li>
                 <li> Modificación de instalaciones. </li>
@@ -63,7 +71,7 @@
 
     <section id="nosotras" class="centrar espacio section">
         <h2 class="animate__animated animate__zoomIn animacion"><b> NOSOTRAS </b></h2>
-        <img class="ajustarImagen2" src="./imagenes/arquitectas.jpg">
+        <img class="card-img-top ajustarImagen3" src="./imagenes/arquitectas.jpg">
 
         <p class="centrarTexto"> Somos arquitectas egresadas de la FADU- UBA con una experiencia de mas de diez años
             dedicadas a la obras de arquitectura, diseño e interiorismo. Nos apasiona crear espacios y generar
@@ -71,89 +79,76 @@
             locales comerciales y Oficinas. </p>
     </section>
 
+
     <section id="proyectos" class="section">
-        <div class="conteiner">
-            <div class="div1">
-                <h2 class="animate__animated animate__zoomIn animacion"><b> PROYECTOS </b></h2>
-                </a>
+        <h2 class="animate__animated animate__zoomIn animacion centrar"><b> PROYECTOS </b></h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4 section ">
+            <div class="col">
+                <div class="card colorFondo">
+                    <img src="./imagenes/cocina1.PNG" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title centrar">Obra Guido, Recoleta</h5>
+                    </div>
+                </div>
             </div>
-
-            <div class="div2">
-                <h3><u> COCINAS </u></h3>
+            <div class="col">
+                <div class="card colorFondo">
+                    <img src="./imagenes/cocina2.PNG" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title centrar">Obra Peña, Palermo</h5>
+                    </div>
+                </div>
             </div>
-
-            <div class="div3">
-                <img src="./imagenes/cocina1.PNG">
+            <div class="col">
+                <div class="card colorFondo">
+                    <img src="./imagenes/baño1.PNG" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title centrar">Obra Libertador, Olivos</h5>
+                    </div>
+                </div>
             </div>
-
-            <div class="div4">
-                <img src="./imagenes/cocina2.PNG">
+            <div class="col">
+                <div class="card colorFondo">
+                    <img src="./imagenes/exterior1.PNG" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title centrar">Obra Juez Tedín, Barrio Parque</h5>
+                    </div>
+                </div>
             </div>
-
-            <div class="div5">
-                <h3><u> BAÑOS </u></h3>
-            </div>
-
-            <div class="div6">
-                <img src="./imagenes/baño1.PNG">
-            </div>
-
-            <div class="div7">
-                <img src="./imagenes/baño2.PNG">
-            </div>
-
-            <div class="div8">
-                <h3><u> INTERIORES </u></h3>
-            </div>
-
-            <div class="div9">
-                <img src="./imagenes/interior1.PNG">
-            </div>
-
-            <div class="div10">
-                <img src="./imagenes/interior2.PNG">
-            </div>
-
-            <div class="div11">
-                <h3><u> EXTERIORES </u></h3>
-            </div>
-
-            <div class="div12">
-                <img src="./imagenes/exterior1.PNG">
-            </div>
-
-
-            <div class="div13">
-                <hr />
-                <table>
-                    <tr>
-                        <td> <img src="./imagenes/mapa.JPG" alt="Map">
-                        <td>
-                            <p> Fakestreet 1234, CABA </p>
-                    </tr>
-                    <tr>
-                        <td><img src="./imagenes/mail.JPG" alt="Mail">
-                        <td>
-                            <p> fake@gmail.com </p>
-                    </tr>
-                    <tr>
-                        <td><img src="./imagenes/telefono.JPG" alt="Whatsapp">
-                        <td>
-                            <p> +54 9 11 56984417 </p>
-                    </tr>
-                    <tr>
-                        <td><img src="./imagenes/instagram2.jpg" alt="Instagram">
-                        <td>
-                            <p> <a href="https://instagram.com/proyecto.fika?utm_medium=copy_link">/proyectofika </a>
-                            </p>
-                    </tr>
-            </div>
-
-
-
-        </div>
     </section>
 
+
+    <footer>
+        <div class="espacioServicios">
+            <table class="imagenes">
+                <tr>
+                    <td> <img src="./imagenes/mapa.JPG" alt="Map">
+                    <td>
+                        <p> Fakestreet 1234, CABA </p>
+                </tr>
+                <tr>
+                    <td><img src="./imagenes/mail.JPG" alt="Mail">
+                    <td>
+                        <p> fake@gmail.com </p>
+                </tr>
+                <tr>
+                    <td><img src="./imagenes/telefono.JPG" alt="Whatsapp">
+                    <td>
+                        <p> +54 9 11 56984417 </p>
+                </tr>
+                <tr>
+                    <td><img src="./imagenes/instagram2.jpg" alt="Instagram">
+                    <td>
+                        <p> <a href="https://instagram.com/proyecto.fika?utm_medium=copy_link">/proyectofika </a>
+                        </p>
+                </tr>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

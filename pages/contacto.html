@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagenes/frameicon.jpg">
     <title> Proyecto Fika </title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 
@@ -28,49 +34,75 @@
         </nav>
     </header>
 
-    <section class="contacto">
-        <h1 class="espacio"><b> CONTACTO </b></h1>
 
-    
-            <form action="" method="get"></form>
-            <label for="nombre"> Nombre: </label>
-            <input id="nombre" type="text" placeholder="Ingresá tu nombre">
+    <section class="contacto espacioServicios">
+        <h2 class="espacio"><b> CONTACTO </b></h2>
 
-            <label for="email"> Mail: </label>
-            <input id="email" type="email" placeholder="Ingresá tu mail">
+        <div class="imagenes ajustarForm">
+            <form class="row g-3 needs-validation espacioServicios">
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltip01" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Ingresá tu nombre"
+                        required="">
 
-            <br />
-            <br />
+                </div>
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltip02" class="form-label">Apellido:</label>
+                    <input type="text" class="form-control" id="validationTooltip02" placeholder="Ingresá tu apellido"
+                        required="">
+                </div>
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltipUsername" class="form-label">Mail:</label>
+                    <div class="input-group has-validation">
+                        <input type="text" class="form-control" id="validationTooltipUsername"
+                            placeholder="Ingresá tu mail" required="">
+                    </div>
+                </div>
 
-            <label for=""> Dejanos tu comentario: </label> <br />
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="Enviar">
-             
-            <br />
+                <div class="col-12">
+                    <label for="validationTooltipUsername" class="form-label">Dejanos tus comentarios:</label>
+                    <textarea class="form-control" id="floatingTextarea" style="height: 100px"></textarea>
+                </div>
 
-            <label for=""> Acepta las condiciones: </label>
-            <input type="checkbox" name="acepta" value="1">
-
-            
+                <div class="col-12">
+                    <button class="btn btn-secondary" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
     </section>
 
-    <hr />
 
     <footer>
-        <table>
-            <tr>
-            <td> <img src="../imagenes/mapa.JPG" alt="Map">
-            <td> <p> Fakestreet 1234, CABA </p></tr>
-            <tr><td><img src="../imagenes/mail.JPG" alt="Mail">
-            <td><p> fake@gmail.com </p></tr>
-            <tr><td><img src="../imagenes/telefono.JPG" alt="Whatsapp">    
-            <td><p> +54 9 11 56984417 </p></tr>
-            <tr><td><img src="../imagenes/instagram2.jpg" alt="Instagram">
-            <td><p> <a href="https://instagram.com/proyecto.fika?utm_medium=copy_link">/proyectofika </a></p></tr>
+        <div class="espacioServicios">
+            <table class="imagenes">
+                <tr>
+                    <td> <img src="../imagenes/mapa.JPG" alt="Map">
+                    <td>
+                        <p> Fakestreet 1234, CABA </p>
+                </tr>
+                <tr>
+                    <td><img src="../imagenes/mail.JPG" alt="Mail">
+                    <td>
+                        <p> fake@gmail.com </p>
+                </tr>
+                <tr>
+                    <td><img src="../imagenes/telefono.JPG" alt="Whatsapp">
+                    <td>
+                        <p> +54 9 11 56984417 </p>
+                </tr>
+                <tr>
+                    <td><img src="../imagenes/instagram2.jpg" alt="Instagram">
+                    <td>
+                        <p> <a href="https://instagram.com/proyecto.fika?utm_medium=copy_link">/proyectofika </a>
+                        </p>
+                </tr>
+        </div>
 
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
