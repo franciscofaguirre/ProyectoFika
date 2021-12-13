@@ -1,0 +1,36 @@
+.header{
+    background-color: #87986a;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+
+    &Logo img{
+        width: 120px;
+        padding: 7px; 
+    }
+
+    &Menu ul{
+        margin-top: 16px;
+    }
+
+        &ul li{
+            display: inline;
+            justify-content:flex-end;
+            text-align: center;
+            margin-right: 5px;
+        }
+}
+
+      
+nav ul li a{
+        color: white;
+        padding-right: 8px;
+        text-decoration: none;
+    }
+
+nav ul li a:hover{
+    color: black;
+}

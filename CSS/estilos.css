@@ -1,17 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body{
     background-color: #dad7cd;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.section{
-    padding-top: 6%;
-}
-
-.section2{
-    padding-top: 2%;
-}
+/* HEADER */
 
 .header{
     background-color: #87986a;
@@ -28,14 +24,20 @@ body{
     padding: 7px;   
 }
 
+.headerMenu ul{
+    margin-top: 16px;
+}
+
 .headerMenu ul li{
-    display: inline-block;
-    margin-right: 10px;
+    display: inline;
+    justify-content:flex-end;
+    text-align: center;
+    margin-right: 5px;
 }
       
 nav ul li a{
         color: white;
-        padding-right: 15px;
+        padding-right: 8px;
         text-decoration: none;
     }
 
@@ -43,6 +45,7 @@ nav ul li a:hover{
     color: black;
 }
 
+/* GENERAL */
 
 a{
     color: black;
@@ -56,10 +59,35 @@ p {
     font-size: 1rem;
 }
 
+.section{
+    padding-top: 6%;
+}
+
+.section2{
+    padding-top: 2%;
+}
+
+.section3{
+    padding-bottom: 50px;
+}
+
+.section4{
+    padding-bottom: 25px;
+}
+
 .centrar{
     text-align:center
 }
 
+.centrar2 {
+    width:auto;
+    text-align: center;
+    margin: 8px 0px 0px;
+}
+
+.centrarTitulo{
+    text-align:center
+}
 
 .ajustarImagen{
     height:500px;
@@ -71,16 +99,14 @@ p {
     margin: 0 auto;
 }
 
-.ajustarForm{
-    width: 90%;
-    margin: 0 auto;
-}
-
 .ajustarImagen3{
     width: 42%;
     margin: 0 auto;
 }
-
+.ajustarForm{
+    width: 50%;
+    margin: 0 auto;
+}
 
 .centrarTexto1{
     text-align:center;
@@ -92,28 +118,127 @@ p {
     margin: 50px 0;
 }
 
+.centrarTexto2{
+    text-align:center;
+    margin: 30px 60px 0px;
+}
+
 .espacio{
     margin: 20px 0;
+}
+
+.espacio2{
+    margin-top: 2%;
 }
 
 .espacioServicios{
     margin-top: 50px;
 }
 
-table{
-    display: flex;
-    justify-content:space-around;
-}    
+.row {
+    margin: 0 !important;
+}
 
-.imagenes{
+/* .card{
+    border: 0.5px solid grey;   
+} */
+
+.card1{
+    margin: 0% 0% 10% 10%;   
+}
+
+.card2{
+    margin: 0% 5% 10% 5%;   
+}
+
+.card3{
+    margin: 0% 10% 10% 0%;   
+}
+
+/* SERVICIOS */
+
+.boxConteiner {
+    background-color: #dad7cd;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+}
+
+.boxItem {
+    width: 300px;
+    height: 150px;
+    color: white;
+    font-weight: bold;
+    margin: 20px 2% 0 2%;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 184, 158);
+    border-radius: 40px;
+}
+
+.marginServicios{
+    margin-top: 4%;
+}
+
+.marginTexto{
+    margin-top: 32px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(174, 179, 152);
+    padding-top: 14px;
+}
+
+.footerRow {
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
     align-items: center;
 }
 
-.colorFondo{
-    background-color: #dad7cd;
-    border: none;
+.footerRow2 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.footerMenu {
+    width: 70%;
+    display: flex;
+    justify-content:center;
+}
+
+.footerSocial {
+    width: 50%;
+    display: flex;
+    justify-content:flex-start;
+}
+.footerMenu ul {
+    list-style: none;
+}
+
+.footerMenu ul li {
+    margin-top: 5px;
+}
+
+.footerMenu a {
+    color: black !important;
+}
+
+.footerSocial a:not(:first-child){
+    margin-left: 20px;
+}
+
+.footerSocial img {
+    height: 40px;
+}
+
+.footerDerechos{
+    font-size: 0.8rem;
 }
 
     
@@ -124,50 +249,96 @@ table{
         display:contents;
     }
     
-    .imagenes {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 50px;
-    }
-
     .ajustarImagen{
         height: 100%;
         width: 60%;   
     }
 
+    .ajustarImagen2{
+        width: 80%;
+        margin: 0 auto;   
+    }
+
     .ajustarImagen3{
-        width: 85%;
+        width: 65%;
         margin: 0 auto;
     }
     
     .section{
-        padding-top: 20%;
+        padding-top: 12%;
     }
 
     .centrar {
         width:auto;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
+    }
+
+    .centrar2 {
+        width:auto;
+        text-align: center;
+        margin: 5px 0px 5px;
+    }
+
+    .centrar3 {
+        width:auto;
+        text-align: center;
+        margin-bottom: 2%;
     }
 
     .contacto {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
+ 
+    .footerMenu {
+        width: 70%;
+        display: flex;
+        justify-content:center;
+    }
+
+    .footerSocial {
+        width: 70%;
+        display: flex;
+        justify-content:flex-start;
+    }
+
+    .footerSocial img {
+        height: 35px;
+    }
+
+    .espacio2{
+        margin-top: 3%;
+    }
+
+    .card{
+        margin: 0% 10% 2%;
+    }
+
+    .marginTexto{
+        margin: 1%;
+    }
+
+    .marginServicios{
+        margin-top: 2%;
+    }
+
+    .boxItem{
+        font-size: 0.9rem;
+    }
+    
+    .footerDerechos{
+        font-size: 0.8rem;
+    }
+
 
 }
 
-/* CELULAR */
+/* MOBILE */
 @media screen and (max-width: 576px) {
     .headerMenu ul li{
         display:contents;
-    }
-    
-    .imagenes {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 50px;
     }
 
     .ajustarImagen{
@@ -191,14 +362,46 @@ table{
         margin: 0 auto;
     }
 
+    .ajustarImagen3{
+        width: 85%;
+        margin: 0 auto;
+    }
+
     .centrar {
         width:auto;
         margin-bottom: 50px;
     }
 
-    
-}
+    .centrar2 {
+        width:auto;
+        margin-bottom: 10px;
+    }
 
+    .centrarTexto2{
+        text-align:center;
+        margin: 30px 5px 0px;
+    }
+
+    .espacio2{
+        margin-top: 8%;
+    }
+
+    .card{
+        margin: 0% 4% 2%;
+    }
+
+    .marginTexto{
+        margin: 0.5% 2%;
+    }
+
+    .boxItem{
+        font-size: 0.8rem;
+    }
+
+    .footerDerechos{
+        font-size: 0.8rem;
+    }
+}
 
 
 

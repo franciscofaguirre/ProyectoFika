@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    background-color: #dad7cd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section{
+    padding-top: 6%;
+}
+
+.section2{
+    padding-top: 2%;
+}
+
+.section3{
+    padding-bottom: 50px;
+}
+
+.section4{
+    padding-bottom: 25px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    color: black;
+    text-decoration: none;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.centrar{
+    text-align:center
+}
+
+.centrar2 {
+    width:auto;
+    text-align: center;
+    margin: 8px 0px 0px;
+}
+
+.ajustarImagen{
+    height:500px;
+    width: 55%;
+}
+
+.ajustarImagen2{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ajustarImagen3{
+    width: 42%;
+    margin: 0 auto;
+}
+.ajustarForm{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ajustarBloque{
+    padding: 10px;
+}
+
+.centrarTexto1{
+    text-align:center;
+    margin: 42px 0;
+}
+
+.centrarTexto{
+    text-align:center;
+    margin: 50px 0;
+}
+
+.centrarTexto2{
+    text-align:center;
+    margin: 30px 60px 0px;
+}
+
+.espacio{
+    margin: 20px 0;
+}
+
+.espacio2{
+    margin-top: 2%;
+}
+
+.espacioServicios{
+    margin-top: 50px;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.card{
+    border: 0.5px solid grey;   
+}
+
+.card1{
+    margin: 0% 0% 2% 10%;   
+}
+
+.card2{
+    margin: 0% 10% 2% 0%;   
+}
