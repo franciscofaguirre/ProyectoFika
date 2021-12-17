@@ -72,7 +72,7 @@ p {
 }
 
 .section4{
-    padding-bottom: 25px;
+    padding-bottom: 56px;
 }
 
 .centrar{
@@ -87,6 +87,10 @@ p {
 
 .centrarTitulo{
     text-align:center
+}
+
+.tamañoTextoProyectos{
+    font-size: 1.3rem;
 }
 
 .ajustarImagen{
