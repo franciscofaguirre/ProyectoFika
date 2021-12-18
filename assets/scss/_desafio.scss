@@ -1,0 +1,55 @@
+.centrarTexto{
+    text-align:center;
+}
+
+.centrarTexto1{
+    @extend .centrarTexto;
+    margin: 42px 0;
+}
+
+.centrarTexto2{
+    @extend .centrarTexto;
+    margin: 50px 0;
+}
+
+.centrarTexto3{
+    @extend .centrarTexto;
+    margin: 30px 60px 0px;
+}
+
+
+.centrar{
+    text-align: center;
+}
+
+.centrar2{
+    @extend .centrar;
+    width: auto;
+    margin: 8px 0px 0px;
+}
+
+
+@mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxItem {
+    @include flex-center-center;
+    width: 300px;
+    height: 150px;
+    color: white;
+    font-weight: bold;
+    margin: 20px 2% 20px 2%;
+        
+    background-color: rgb(179, 184, 158);
+    border-radius: 40px;
+}
+
+.footerRow {
+    @include flex-center-center;
+    margin-top: 10px;
+}
+
+
